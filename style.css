@@ -1,0 +1,27 @@
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.message {
+  text-align: center;
+  padding-top: 80px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
