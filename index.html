@@ -8,7 +8,7 @@
     <title>Martin's Phones</title>
   </head>
   <body>
-    <h1>Martin's Phones</h1>
+    <h1 id="h1">Basic Text</h1>
     <div>
       <table>
         <tr>
@@ -68,6 +68,15 @@
         <p>Martin's Phones</p>
       </footer>
     </div>
-    <script></script>
+    <script>
+        document.getElementById("h1").innerHTML = "Martin's Phones";
+    
+        
+    function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('pink') });
+    </script>
   </body>
 </html>
