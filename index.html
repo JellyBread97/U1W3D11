@@ -8,7 +8,7 @@
     <title>Martin's Phones</title>
   </head>
   <body>
-    <h1 id="h1">Basic Text</h1>
+    <h1 id="h1">Martin's Phones</h1>
     <div>
       <table>
         <tr>
@@ -62,21 +62,25 @@
     </div>
     <div>
       <footer>
-        <p>
+        <p id="address">
           Address: 21 Donotpanic Plaza, Apt. 18, Saveme, Lalaland 
         </p>
         <p>Martin's Phones</p>
       </footer>
     </div>
     <script>
-        document.getElementById("h1").innerHTML = "Martin's Phones";
-    
-        
-    function changeBackground(color) {
-   document.body.style.background = color;
-}
+        function changeH1Text() {
+            document.querySelector("h1").innerHTML = "Marty's Amazing Phones!"
+        }
 
-window.addEventListener("load",function() { changeBackground('pink') });
+        function changeBgColour() {
+            document.querySelector("body").style.color = 'pink'
+        }
+
+        function changeAddress() {
+            document.querySelector("address").innerHTML = "Lalaland is fake address 7, UK"
+        }
+
     </script>
   </body>
 </html>
